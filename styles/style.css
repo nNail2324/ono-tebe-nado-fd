@@ -76,18 +76,15 @@
     z-index: -1;
 }
 
-.cover__title {
+.aligned-text {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
     font-weight: 700;
     font-size: 100px;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.3em;
-}
-
-.aligned-text {
-    display: flex;
-    flex-direction: column;
-    gap: 17px;
 }
 
 .aligned-text_left {
@@ -100,6 +97,11 @@
 
 .aligned-text_right {
     align-self: flex-end;
+    padding-right: 0;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
 }
 
 .cover__description {
