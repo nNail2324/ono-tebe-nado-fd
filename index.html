@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="font" href="/fonts/fonts.css" />
-    <link rel="stylesheet" href="/styles/global.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="font" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header class="header">
@@ -25,11 +25,11 @@
         </ul>
       </nav>
       <a class="header__logo">
-        <img class="header__logo-image" src="/images/logo-black.svg" alt="Логотип">
+        <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип">
       </a>
       <address class="header__address address">
-        <a class="header__link" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address-block__item" href="tel:+99995555555" target="_blank">+9 999 555 5555</a>
+        <a class="address-block__item" href="mailto:info@sobaka.ge" target="_blank">info@sobaka.ge</a>
         наб. Принсенграхт 263- 265, Амстердам
       </address>
     </header>
@@ -49,13 +49,13 @@
         </div>
       </section>
       <section class="lots">
-        <h1 class="lots__heading">лоты</h1>
+        <h2 class="lots__heading">лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_film">
                 <div class="overlay"></div>
-                <h2 class="card__title">фильм режиссёра, который бросил киношколу</h2>
+                <h3 class="card__title">фильм режиссёра, который бросил киношколу</h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. 
                   Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
@@ -67,7 +67,7 @@
             <a class="card-link" href="#0">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <h2 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h2>
+                <h3 class="card__title">книга, где описан один скучный день из жизни рекламного агента</h3>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. 
                   В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. 
@@ -80,7 +80,7 @@
             <a class="card-link" href="#0">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <h2 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h2>
+                <h3 class="card__title">картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку.
                   Никаких полей, лесов, котиков... 
@@ -93,13 +93,13 @@
         <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
       <section class="about">
-        <div class="about__column">
+        <article class="about__column">
           <div class="about__logo">
-            <img class="about__logo-image" src="/images/logo-white.svg" alt="Об аукционе">
+            <img class="about__logo-image" src="./images/logo-white.svg" alt="Об аукционе">
           </div>
-        </div>
-        <div class="about__column">
-          <h1 class="about__title">об аукционе</h1>
+        </article>
+        <article class="about__column">
+          <h2 class="about__title">об аукционе</h2>
           <div class="about__text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
@@ -115,13 +115,13 @@
               И сейчас эти лоты стали культовыми. 
             </p>
           </div>
-        </div>
+        </article>
       </section>
     </main>
     <footer class="footer">
       <address class="footer__address address">
-        <a class="footer__menu-link" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="footer__menu-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address-block__item" href="tel:+99995555555" target="_blank">+9 999 555 5555</a>
+        <a class="address-block__item" href="mailto:info@sobaka.ge" target="_blank">info@sobaka.ge</a>
         наб. Принсенграхт 263- 265, Амстердам
       </address>
       <nav class="footer__menu">
@@ -139,18 +139,18 @@
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#0">
-            <img class="footer__social-icon" src="/images/yt.svg" alt="YouTube">
+          <a class="footer__social-link" href="#0" target="_blank">
+            <img class="footer__social-icon" src="./images/yt.svg" alt="YouTube">
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#0">
-            <img class="footer__social-icon" src="/images/vk.svg" alt="ВК">
+          <a class="footer__social-link" href="#0" target="_blank">
+            <img class="footer__social-icon" src="./images/vk.svg" alt="ВК">
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#0">
-            <img class="footer__social-icon" src="/images/pinterest.svg" alt="Pinterest">
+          <a class="footer__social-link" href="#0" target="_blank">
+            <img class="footer__social-icon" src="./images/pinterest.svg" alt="Pinterest">
           </a>
         </li>
       </ul>
